@@ -1,9 +1,9 @@
-var customer = /** @class */ (function () {
-    function customer(first, last) {
+var SecondCustomer = /** @class */ (function () {
+    function SecondCustomer(first, last) {
         this.firstname = first;
         this.lastname = last;
     }
-    return customer;
+    return SecondCustomer;
 }());
-var mycustomer = new customer("hassan", "irfan");
-console.log(mycustomer);
+var myCustomer2 = new SecondCustomer("hassan", "irfan");
+console.log(myCustomer2);
